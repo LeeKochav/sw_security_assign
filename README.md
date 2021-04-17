@@ -1,5 +1,6 @@
 # C-Assignment. GCC Sanitize Options 
-Author ID: 313233769
+Author ID: 313233769.
+
 This program demonstrate compiling GCC-sanitizer.
 
 ## Requirements
