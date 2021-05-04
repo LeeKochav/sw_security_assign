@@ -3,6 +3,10 @@
 #include <stdlib.h>
 
 /*
+Author ID- 313233769
+*/
+
+/*
 -fsanitize=address -  Detect buffer overflow 
 This function demonstrates a heap buffer overflow error.
 The ptr pointer overflowed because of "bad" allocation not including an extra byte for the string null terminate character ('\0’) and the unsafe C library function - strcpy.
@@ -52,5 +56,6 @@ int main(int argc, const char *argv[])
     option_address_func();
     option_float_divide_by_zero_func();
     option_undefined_func();
+    printf("Compiled successfully\n");
     return 0;
 }
